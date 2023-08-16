@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+
+header {
+    background-color: #6600ff;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #00ff00;
+}
+
+.menu-category {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.dish {
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #a7ff83;
+    /* Color de borde neón suave */
+    box-shadow: 0 0 10px rgba(167, 255, 131, 0.5);
+    /* Sombra de caja para resaltar */
+    transition: box-shadow 0.3s;
+    /* Transición suave al pasar el ratón */
+}
+
+.dish:hover {
+    box-shadow: 0 0 15px rgba(167, 255, 131, 0.8);
+    /* Sombra de caja más intensa al pasar el ratón */
+}
+
+.dish i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.dish-name {
+    font-weight: bold;
+    color: #00ffff;
+}
+
+.dish-price {
+    margin-left: auto;
+    color: #ff9900;
+}
